@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EcommerceAppCore.Data.EF\EcommerceAppCore.Data.EF.csproj" />
+    <ProjectReference Include="..\EcommerceAppCore.Data\EcommerceAppCore.Data.csproj" />
+    <ProjectReference Include="..\EcommerceAppCore.Utilities\EcommerceAppCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
